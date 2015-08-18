@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_match_match"
+    android:orientation="vertical" >
+
+    <include
+        style="@style/layout_linea_principal"
+        layout="@layout/linea_principal" />
+
+    <LinearLayout
+        style="@style/layout_match_wrap"
+        android:layout_margin="@dimen/margin_detail_image"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/layout_match_wrap"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/image_activity_publish_date"
+                style="@style/text_view_detail_image"
+                android:text="@string/di_publish_date" />
+
+            <TextView
+                android:id="@+id/tv_ima_det_publish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layout_match_wrap"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/image_activity_author"
+                style="@style/text_view_detail_image"
+                android:text="@string/di_author" />
+
+            <TextView
+                android:id="@+id/tv_ima_det_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layout_match_wrap"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/image_activity_tag"
+                style="@style/text_view_detail_image"
+                android:text="@string/di_tag" />
+
+            <TextView
+                android:id="@+id/tv_ima_det_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager_medium_image"
+            style="@style/layout_match_wrap" />
+    </LinearLayout>
+
+</LinearLayout>

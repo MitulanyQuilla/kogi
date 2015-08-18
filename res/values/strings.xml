@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kogi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Download -->
+    <string name="download_text">Download...</string>
+    <string name="general_wait">Please, wait...</string>
+    
+    <!-- Gallery -->
+    <string name="ab_gallery_name">My Gallery App</string>
+    <string name="ab_second_display">Image Title</string>
+    <string name="ab_third_display">Original Page Title</string>
+    
+    <!-- Detail Image< -->
+    <string name="di_publish_date">Publish Date : </string>
+    <string name="di_author">Author : </string>
+    <string name="di_tag">Tag : </string>
+    
+    <!-- Menu -->
+    <string name="menu_share">Share...</string>
+    
+    
+
+</resources>

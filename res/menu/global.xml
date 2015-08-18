@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:orderInCategory="100"
+        android:title="@string/app_name"
+        android:icon="@drawable/ic_popup_sync_1"
+        android:showAsAction="always"/>
+    
+</menu>
